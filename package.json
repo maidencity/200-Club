@@ -1,7 +1,7 @@
 {
   "name": "200-club",
   "version": "0.1.0",
-  "homepage": "https://200.maiden.city/",
+  "homepage": "https://200-club.maiden.city/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
