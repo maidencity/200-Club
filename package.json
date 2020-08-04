@@ -1,6 +1,7 @@
 {
   "name": "200-club",
   "version": "0.1.0",
+  "homepage": "https://200.maiden.city/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,14 +11,26 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "font-awesome": "^4.7.0",
+    "konva": "^7.0.4",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-konva": "^16.13.0-5",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "reactstrap": "^8.5.1",
+    "simple-line-icons": "^2.5.2",
     "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^8.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "BUILD_DIR=build-lite react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
